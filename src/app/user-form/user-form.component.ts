@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class UserFormComponent {
   user = { name: '', email: '', phone: '', city: '' };
-  baseUrl = 'https://myapp.onrender.com/api/users'; //'http://localhost:8080/api/users'; // later replace with deployed backend
+  baseUrl = 'http://localhost:8080/api/users'; //'http://localhost:8080/api/users'; // later replace with deployed backend
 
   constructor(private http: HttpClient) {}
 
